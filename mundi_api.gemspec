@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.add_dependency('faraday_middleware', '~> 1.0')
   s.add_dependency('test-unit', '~> 3.1', '>= 3.1.5')
   s.add_dependency('certifi', '~> 2016')
-  s.add_dependency('faraday-http-cache', '~> 1.2', '>= 1.2.2')
+  s.add_dependency('faraday-http-cache', '~> 2.5')
   s.required_ruby_version = '< 4'
   s.files = Dir['{bin,lib,man,test,spec}/**/*', 'README*', 'LICENSE*']
   s.require_paths = ['lib']
